@@ -45,7 +45,7 @@ function App() {
             <div className="card-body">
               <h4 className="card-title">{article.title}</h4>
               <p className="card-text">{article.description}</p>
-              <a className="btn" href={article.url}>Read more</a>
+              <a className="btn" href={article.url}>Read more &gt;</a>
             </div>
           </div>
         })}
