@@ -8,7 +8,7 @@ function App() {
   const [searchquery, setsearchquery] = useState('India')
 
   const fetchData = async (query) => {
-    let a = await fetch(`https://newsapi.org/v2/everything?q=${query}&apikey=f1551241dc2c41e799e446e38979a52d`)
+    let a = await fetch(`https://newsapi.org/v2/everything?q=${query}&apikey=your_apikey`)
     let data = await a.json()
     setnewsData(data.articles)
   }
